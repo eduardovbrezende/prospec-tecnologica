@@ -1,0 +1,68 @@
+/* Este é o CSS exclusivo do nosso gerenciador de tarefas.
+  Ele foi escrito pensando apenas no escopo interno do componente.
+*/
+
+.card {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 12px;
+  background: #f8f9fa;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+/* Botão específico para a ação de deletar */
+.delete-btn {
+  background: #dc3545;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}

@@ -1,0 +1,21 @@
+/* Este arquivo simula o CSS de um sistema legado ou de uma biblioteca global.
+  O objetivo dele aqui é ser "agressivo" para testar se o nosso componente resiste.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f5;
+  padding: 20px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: 5px solid darkred;
+  padding: 15px;
+}
+
+input {
+  border: 3px solid red;
+  background-color: pink;
+}
