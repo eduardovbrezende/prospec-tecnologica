@@ -32,3 +32,11 @@ prospec-tecnologica/
 └── components/
     └── taskManager.js         # Lógica da classe, ciclo de vida e Shadow DOM
 ```
+
+## Diagramas
+
+### Arquitetura do componente
+![Arquitetura Web Component](docs/arquitetura_web_component_v2.png)
+
+### Ciclo de vida
+![Ciclo de vida](docs/ciclo_vida_web_component_v2.png)
