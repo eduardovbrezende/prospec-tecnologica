@@ -69,9 +69,7 @@ class TaskManager extends HTMLElement {
     });
 
     // Evento para remover tarefas
-    // Em vez de colocar um escutador em cada botão, escutamos a lista pai (ul).
     taskList.addEventListener("click", (evento) => {
-      // Verificamos se o clique aconteceu exatamente em um elemento com a classe do botão de deletar
       if (evento.target.classList.contains("delete-btn")) {
         const indexToRemove = evento.target.getAttribute("data-index");
         this.tasks.splice(indexToRemove, 1); // Remove o item correspondente do array
